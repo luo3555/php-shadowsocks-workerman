@@ -1,0 +1,20 @@
+{
+    "name": "daniel/shadowsocks",
+    "description": "workerman shadowsocks",
+    "type": "project",
+    "require": {
+        "walkor/workerman": "^3.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel luo",
+            "email": "luo3555@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Workerman\\": "./vendor/workerman/"
+        }
+    }
+}
