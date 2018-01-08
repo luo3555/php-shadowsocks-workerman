@@ -1,12 +1,12 @@
 <?php 
 // 服务器地址
-$SERVER = '172.30.172.157';
+$SERVER = getenv('SERVER_IP');
 // 加密算法
 $METHOD = 'aes-256-cfb';
 // 密码
-$PASSWORD = '12345678';
+$PASSWORD = getevn('PASWWORD');
 // 服务器端口
-$PORT = 8888;
+$PORT = getevn('PORT');
 // 客户端端口
 $LOCAL_PORT = 1080;
 // 启动多少进程

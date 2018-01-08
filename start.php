@@ -28,7 +28,7 @@ require_once CROOT_DIR . '/vendor/autoload.php';
 $files = [
     'Encryptor.php',
     'config.php',
-    'local.php',
+    // 'local.php',
     'server.php',
     'start.php',
 ];
